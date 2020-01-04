@@ -19,6 +19,9 @@ public class Book extends Product {
         return publisher;
     }
 
+    public double computeSpecialCustomerPrice(){
+        return (computeSalePrice()-200);
+    }
     public void setPublisher(String publisher) {
         this.publisher = publisher;
     }

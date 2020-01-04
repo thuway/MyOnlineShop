@@ -13,6 +13,10 @@ public class TV extends Electronics {
         return super.getRegularPrice() * 0.8;
     }
 
+    public double computeSpecialCustomerPrice(){
+        return (computeSalePrice()-100);
+    }
+
     public int getSize() {
         return size;
     }

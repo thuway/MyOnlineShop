@@ -13,6 +13,10 @@ public class MP3Player extends Electronics {
         return super.getRegularPrice() * 0.9;
     }
 
+    public double computeSpecialCustomerPrice(){
+        return (computeSalePrice()-150);
+    }
+
     public String getColor() {
         return color;
     }

@@ -19,4 +19,8 @@ public class Product {
     public void setRegularPrice(double regularPrice){
         this.regularPrice = regularPrice;
     }
+
+    public double computeSpecialCustomerPrice(){
+        return (computeSalePrice()-0);
+    }
 }
